@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: mc-app-service
 spec:
-  type: NodePort
+  type: LoadBalancing
   ports:
   - name: http
     port: 80
